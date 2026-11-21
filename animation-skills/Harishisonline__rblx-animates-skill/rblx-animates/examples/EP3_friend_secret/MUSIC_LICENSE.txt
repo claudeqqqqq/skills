@@ -1,0 +1,15 @@
+EP3 friend_secret - music licence note (2026-11-16)
+
+Track: "Numbers" by TEMPOREX (name from YouTube Content-ID music cards, see Project knowledge/MUSIC_PLAYBOOK.md).
+Use: background bed for the whole video (user: "same music as in this town").
+
+Status: COMMERCIAL SONG. We hold NO licence to bake it into a file for the business account.
+- It is NOT in the posted file. out/final_nomusic.mp4 (the file to post) has voice + our own SFX only.
+- It IS mixed into out/final_preview.mp4 and audio/mix_preview.wav for the user's review only. Never post, upload or share
+  the preview file.
+- To use the song on Instagram, the user adds "Numbers" from Instagram's own music picker when posting. UNVERIFIED whether
+  the track is available to this (business) account: the user checks in the app. If it is not there, post without it or
+  pick another track from the picker; do not bake it in.
+- Source file here: audio/inthisworld_bed.wav (the kit's assets/music/inthisworld_bed.wav).
+
+Sound effects: our own (kit sfx pack, ElevenLabs sound generations made for this channel, EP2 recreations). No ripped meme clips.

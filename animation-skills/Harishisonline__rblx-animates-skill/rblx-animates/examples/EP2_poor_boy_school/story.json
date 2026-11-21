@@ -1,0 +1,28 @@
+{
+ "title": "The Poor Boy Who Bought the School",
+ "series": "blox_city",
+ "format": "blox_city",
+ "voice_preset": "alex_ep1",
+ "runtime_s": [
+  90,
+  120
+ ],
+ "music": {
+  "posted": "none baked; user adds in Instagram: Numbers (TEMPOREX) 0->auditorium line, Another Love (Tom Odell) auditorium->end",
+  "exports": [
+   "out/final_nomusic.mp4",
+   "out/final_preview.mp4"
+  ]
+ },
+ "ending": "knowledge/ENDING_RULE.md",
+ "cast": [
+  "Harry (narrator, poor kid)",
+  "Ryan (bully)",
+  "Milo",
+  "Principal",
+  "Grandpa",
+  "Ryan's dad",
+  "students"
+ ],
+ "gates": "waived by the user 2026-11-15: 'just start making the video, we will review it and learn'"
+}

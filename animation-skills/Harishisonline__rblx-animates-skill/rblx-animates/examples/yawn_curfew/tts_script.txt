@@ -1,0 +1,46 @@
+# Yawn Curfew - house narration (narrate_house.py). One paragraph = one eleven_v3 request, performed exactly as written.
+[mischievously] [speaking quickly] In this town, every time you yawn, the closest person falls asleep for ONE hour.
+
+[excited] You see, a yawn here works like a dart. [yawns] Ahh-hh. Thunk! [deadpan] Out COLD.
+
+[curious] [speaking quickly] And yawns are contagious, so if you see somebody yawn, you yawn too, and the person next to you goes DOWN.
+
+[playful] [speaking quickly] That's why nobody here watches sleepy movies. [excited] Last year, one boring film put the whole cinema to sleep, and the popcorn guy woke up on the ROOF.
+
+[playful] [speaking quickly] Babies are the most dangerous people in town. One yawn from a stroller, and the mailman naps on your porch for an hour.
+
+[matter-of-fact] [speaking quickly] Mr. Patel, the bus driver, wears a mask so nobody can see his face. Our principal gives speeches through a door. And at the library, there's a sign that says, "No yawning. Not even a little."
+
+[serious] [speaking quickly] The rule is simple. Keep your mouth shut, and keep your distance.
+
+[cheerful] [speaking quickly] Me? I'm eleven, and I'm the biggest yawner in town. Forty-six times a day. [sheepish] I've put my whole class to sleep twice, so now I sit alone, by the window.
+
+[warm] [speaking quickly] My little sister Pip is the opposite. Pip has never yawned in her life, and nobody's yawn has ever worked on her. Doctors have checked. She's eight, and she just doesn't do YAWNS.
+
+[ominous] [speaking quickly] Then, last Friday, at two a.m., the Snooze Gang came to our street.
+
+[tense] [speaking quickly] Three masked robbers who rob houses with yawns. They yawn through your mail slot, and your whole family falls asleep for an hour.
+
+[urgent] [yawns] Ahh-hh. Thunk! Mom went down. Thunk! Dad went down on top of her. Then the robbers stepped right over them, and the floor creaked under their boots.
+
+[tense] [speaking quickly] They had sixty minutes, and they were going straight for Grandma's ring, the one in the cookie jar that everybody on our street knows about.
+
+[whispers] I hid behind the couch with Pip. "Don't look at them," I whispered. "If you see a yawn, you yawn."
+
+[excited] [speaking quickly] But then I remembered. Pip can't yawn. And I can't STOP.
+
+[determined] So I stood up in the middle of the living room, and I did the biggest yawn of my life. [yawns] Ahhhhhh-hh.
+
+[excited] [speaking quickly] The robber closest to me dropped like a sack of flour. The second one saw it, and he yawned, and the third one hit the FLOOR.
+
+[excited] [speaking quickly] Now there was one left, so Pip walked right up to him and made the most boring face in the world.
+
+[amused] He yawned right in her face. Nothing. He yawned again, harder. [excited] And I was watching, so I caught it.
+
+[excited] [yawns] Ahh-hh. Thunk! He went down like a TREE.
+
+[proud] [speaking quickly] By three a.m., all three of them were snoring on our rug, and Pip was holding Grandma's ring.
+
+[deadpan] The police chief came, saw the robbers, and yawned.
+
+[deadpan] Now I work nights at the JAIL.

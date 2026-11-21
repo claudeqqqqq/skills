@@ -1,0 +1,42 @@
+{
+ "title": "I Told ONE Secret. By Lunch, Everyone Knew.",
+ "slug": "friend_secret",
+ "series": "blox_city",
+ "format": "blox_city",
+ "episode": "Blox City Day 02 (EP3)",
+ "script": "script.txt (captions text, 'Blox'); tts_script.txt ('Blocks', TTS only). Approved by the user 2026-11-16 (title option A).",
+ "voice_preset": "alex_ep1",
+ "voice_take": "audio/voice.wav from audio/EP3_voice_take1.mp3 (take 1, sent to the user for the voice gate)",
+ "runtime_s": 100.85,
+ "words": 328,
+ "music": {
+  "bed": "\"Numbers\" (TEMPOREX), whole video (user: \"same music as in this town\"); file audio/inthisworld_bed.wav, preview mix only",
+  "posted": "none baked; the user adds \"Numbers\" in Instagram's music picker",
+  "exports": [
+   "out/final_nomusic.mp4 (POSTED file)",
+   "out/final_preview.mp4 (bed mixed in, review only, never posted)"
+  ],
+  "licence": "MUSIC_LICENSE.txt"
+ },
+ "audio": {
+  "mix_cfg": "audio/mix_cfg.json",
+  "master": "-14 LUFS integrated, true peak <= -1.5 dBTP",
+  "meme_cues": "audio/meme_cues.json (18 meme hits) + ending pops/click (ENDING_RULE)"
+ },
+ "ending": {
+  "rule": "knowledge/ENDING_RULE.md",
+  "line": "Like, share and follow for more. Would you give Max a second chance? Comment TRUST or BLOCK.",
+  "words": {"like": 311, "share": 312, "follow": 314, "comment": 324, "opt_a": 325, "opt_b": 327},
+  "options": ["TRUST", "BLOCK"]
+ },
+ "cast": [
+  "Leo (narrator, 14, plain hoodie; hero prop: yellow duck night-light)",
+  "Max (best friend since kindergarten; gets a shiny limited hat)",
+  "Chase (rich kid, runs the gossip account Blox Tea; afraid of the dark)",
+  "classmates (extras)",
+  "camp teacher (no lines)"
+ ],
+ "fps": 30,
+ "resolution": [1080, 1920],
+ "gates": "script APPROVED 2026-11-16; voice take 1 awaiting the user's ear; look-dev stills must be approved before tools/ep_final.sh"
+}

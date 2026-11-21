@@ -1,0 +1,745 @@
+{
+ "_doc": "ONE source of truth for per-format defaults (v3.7, 2026-11-14). Read by tools/format_preset.py, pacing.py, hype_lint.py, grade_check.py, qa_gate.py. Evidence tags: measured = numbers we measured on reference videos; inferred = our reading/convention; UNVERIFIED = not confirmed by a render or a listen. Sources: docs/research/{NARRATION_HYPE,MUSIC_RESEARCH,REF_IG_Dfe8B5Hs3G6,REF_IG_Dfs43n3oWqx,GEMINI_AUDIO_NOTES}.md. | v5.1 2026-11-18: in_this_world tiers/length/cta/tts/tempo updated from owner decisions (tiers corrected: short 80-120 s, long = ~20 min compilation). | v6.0 2026-11-19 (owner: 'implement everything the viral videos do'): tiers full 100-165 s / lite 60-78 s, script_v3, narration_v3 (Adam + D FX everywhere, flow edit, EARS targets), package_v6. Rules: docs/VIRAL_V6.md. The weekly self-learning run may re-measure these numbers (3+ new outliers) and logs every change in LESSONS + CHANGELOG. | v6.1 2026-11-20: narration_house (the owner-approved 'v3' house narration, tools/ep_audio/narrate_house.py) for every format; ears targets recalibrated to include the owner-approved reference.",
+ "default": "in_this_world",
+ "aliases": {
+  "in_this_town": "in_this_world",
+  "itw": "in_this_world",
+  "mystery": "in_this_world",
+  "dystopian": "in_this_world",
+  "action": "chase_action",
+  "chase": "chase_action",
+  "emotional": "emotional_twist",
+  "twist": "emotional_twist"
+ },
+ "grade_profiles": {
+  "matte": {
+   "_src": "REF_IG_Dfe8B5Hs3G6 whole reel, 263 samples (measured)",
+   "b_minus_r": 3.0,
+   "b_minus_r_tol": 5.0,
+   "b_minus_r_night_max": 12.0,
+   "sat": 0.3,
+   "sat_tol": 0.06,
+   "p2": 17.0,
+   "p2_tol": 5.0,
+   "p50": 49.0,
+   "p50_tol": 12.0,
+   "p98": 124.0,
+   "p98_tol": 40.0,
+   "night_p50": 30
+  },
+  "day": {
+   "_src": "REF_IG_Dfs43n3oWqx day exteriors (measured); B-R is whole-frame incl. sky, skin/ground must stay <= +5 (not machine-separated yet)",
+   "b_minus_r": 3.0,
+   "b_minus_r_tol": 12.0,
+   "b_minus_r_night_max": 12.0,
+   "sat": 0.3,
+   "sat_tol": 0.08,
+   "p2": 38.0,
+   "p2_tol": 10.0,
+   "p50": 100.0,
+   "p50_tol": 15.0,
+   "p98": 202.0,
+   "p98_tol": 20.0,
+   "night_p50": 30
+  }
+ },
+ "formats": {
+  "in_this_world": {
+   "what": "'In this world / In this town, X makes you Y' first-person mystery/dystopian story (channel default)",
+   "length_s": [
+    100,
+    165
+   ],
+   "length_note": "v6.0 owner 2026-11-19: full tier 100-165 s like the giants (viral 124-174 s, 549-708 words); lite tier 60-78 s for volume and the runtime experiment. Long videos = ~20-min compilations (unchanged).",
+   "look": {
+    "default": "ref_matte",
+    "day_exterior": "ref_day",
+    "night": "ref_night",
+    "practical_interior": "ref_practical",
+    "grade_profile": "matte",
+    "grade_profile_day": "day",
+    "status": "presets UNRENDERED (no look-dev still pack yet)",
+    "never": "cine_day / cine_room / cine_night as the master look (blue fill/rim: EP1 'blueish', B-R +35)"
+   },
+   "music": {
+    "bed": "assets/music/inthisworld_bed.wav",
+    "speed": 1.0,
+    "status": "user rule 2026-11-14 (approved AI-world track); its BPM/source licence UNVERIFIED",
+    "never": "finish.py --music (1.5x) or a generated score unless the user asks",
+    "note_2026_11_18": "unchanged for now; music changes per act will be asked to Gemini later (owner)"
+   },
+   "narration": {
+    "wpm_delivered": [
+     225,
+     290
+    ],
+    "wpm_basis": "MEASURED 2026-11-14 on the user's two In-this-town reference reels (research/intown_refs): R1 229 wpm (articulation 251), R2 285 wpm. The earlier 262-293 band came from generic Roblox story shorts, NOT this format.",
+    "wpm_text_estimate": [
+     225,
+     290
+    ],
+    "words_first_15s": [
+     50,
+     75
+    ],
+    "hook_by_s": 4,
+    "spark_every_s": 6,
+    "flat_fail_s": 10,
+    "exclam_per10": 0.0,
+    "spoken_sfx_per10": 0.0,
+    "spoken_sfx_style": "NONE in this format (0 spoken SFX, 0 ad-libs, 0 exclamation marks in both refs). Real SFX only, never spoken.",
+    "whisper_beats": 0,
+    "cta": "NONE (owner 2026-11-18): no like/share/follow ending and no 'Comment X or Y' in this format; end on the last story line (callback, truth line, twist or cliffhanger), hard cut. Blox City keeps its CTA (ENDING_RULE.md).",
+    "tts": "SUPERSEDED v6.0 2026-11-19 by narration_v3 (Adam + D FX, narrate_v3.py). Old: kit v5: Alex yl2ZDV1MzN4HbQJbMihG, eleven_v3, stability 0.0, similarity 0.75, style 0.25, speaker boost (VOICE_SPEC fixed decision); tools/ep_audio/tts.py one request per tts_script.txt line with that line's audio tags ([excited], [deadpan], [urgent], [whispers], [shouting]...); no side-character voices (owner 2026-11-18).",
+    "voice_preset": "SUPERSEDED: intown_v1 (eleven_multilingual_v2) was a 2026-11-14 test; the fixed narrator is Alex on eleven_v3 (VOICE_SPEC.md), kit v5 tts.py",
+    "tts_raw_wpm_v3_alex": [
+     179,
+     191
+    ],
+    "post_atempo": [
+     1.35,
+     1.42
+    ],
+    "f0_range_st_min": 10,
+    "measured_2026_11_14": "EP1 orig 184.7 wpm, f0 range 13.9 st, f0 sd 4.43, RMS sd 4.44 dB, 10-s energy spread 1.4 dB; mosquito_town (liked) 258 wpm, 21.5 st, 6.95, 7.45 dB; hype test B (per-line takes, st 0.0, style .45 + post) 264 wpm, 20.0 st, 6.14 (voice_tests/NOTES.md)",
+    "tone": "v6.0: near-continuous viral flow (0.18 s after a full stop, at most 3 beats), pitch range >= 12 st, character voices on quotes. Old: v5.1 (owner 2026-11-18, superseding the 2026-11-14 'calm, no tags' reading): faster, expressive first-person storyteller like dripdyl - expressive setups, flat deadpan payoffs, per-line eleven_v3 tags ([excited], [deadpan], [urgent], [whispers]); see DRIPDYL_STYLE_GUIDE.md section 8",
+    "pauses": "v6.0: post.py mode flow (see narration_v3). Old: kit v5.1: speech gaps ~0.08 s, one deliberate 0.22-0.28 s beat before a punchline or twist",
+    "earlier_assumptions_superseded": "262-293 wpm, hype, spoken SFX 0.6/10 s, 1 exclamation/10 s, whisper beat, 'EXPOSE or PROTECT?' CTA, f0 range >= 18 st = generic Roblox shorts, not this format",
+    "format_spec": "engine/docs/research/INTOWN_FORMAT.md",
+    "script_lint": "intown_lint",
+    "script_lint_note": "tools/intown_lint.py (hype_lint.py delegates to it for this format). Measured on R1/R2: both PASS.",
+    "post": "kit v5.1 post.py: gaps > 0.16 s -> 0.08 s, meme pauses 0.24 s (<= 8), no lead-in, TEMPO 1.12, HPF 80, presence +3 dB @ 4 kHz, comp 3:1 @ -20 dB, loudnorm -14 LUFS / -1.5 dBTP",
+    "measured_intown_v1_2026_11_14": "test C (166 words) post: 257 wpm, F0 med 157 Hz (reels 181-203: Alex sits ~25 Hz low), F0 range 12.9 st, sd 3.83, RMS sd 6.39 dB, silence gaps med 0.22 / max 0.29 s, voice LRA 1.5 LU, first word 0.12 s. Nobody has listened.",
+    "tts_raw_wpm_v2_alex_speed115": [
+     180,
+     208
+    ],
+    "tts_raw_wpm_note": "180 raw incl. ~1 s sentence pauses, 208 after gap cut; v3 Alex 198-211 raw at stability 0.5-1.0 (tts_raw_wpm_v3_alex 179-191 was the hype test at stability 0.0-0.3)",
+    "tempo": "post.py TEMPO 1.12 for this format (owner 2026-11-18: faster takes like the viral channels); target 3.8-4.2 words/s delivered, first word <= 0.05 s, meme pauses <= 8 x 0.24 s",
+    "wps_delivered": [
+     3.8,
+     4.2
+    ],
+    "post_atempo_note": "post_atempo 1.35-1.42 was the 2026-11-14 hype test on raw v3 takes; kit v5.1 uses TEMPO 1.12 on per-line takes (test at the voice gate)"
+   },
+   "cutting": {
+    "avg_shot_s": [
+     1.5,
+     1.9
+    ],
+    "cuts_per_min": [
+     26,
+     40
+    ],
+    "basis": "measured: both IG refs ~30 cuts/min, avg ~2.0 s"
+   },
+   "mix": {
+    "bed_under_voice_lu": [
+     6,
+     8
+    ],
+    "bed_under_voice_speech_lu": [
+     9,
+     12
+    ],
+    "duck_db": [
+     3,
+     5
+    ],
+    "master_lufs": -14,
+    "true_peak_dbtp": -1.5,
+    "voice_clarity": "OPTION mix.py --voice-clarity (MUSIC_RESEARCH mix D). NOT default: waiting for the user's A/B verdict (A_base_m vs D_fix_m)",
+    "current_default": "EP1 style: bed ~3.4 LU under voice, -5 dB duck, no EQ (user said it dulled the voice)"
+   },
+   "sfx_density": "medium: whoosh on every cut/transition, 1 hit per reveal, 6-12 SFX/min (Gemini, low confidence)",
+   "captions": {
+    "words": [
+     1,
+     3
+    ],
+    "case": "ALL CAPS",
+    "font": "Poppins heavy, white, black outline",
+    "y": 0.65,
+    "key_word": "#FFD21E",
+    "threat_word": "#E0141E",
+    "sfx_word": "own pop, caps, accent colour, 1.3x"
+   },
+   "expressions": [
+    "neutral",
+    "worried",
+    "worried_dart",
+    "pop_shock",
+    "sad_tear",
+    "smug_up",
+    "blank",
+    "content",
+    "furious",
+    "gasp"
+   ],
+   "faces": "hard decal swaps on beats; reaction ladder 6-8 f/step; eye darts every 4-5 f in fear holds; blinks 2.5-4 s; no narrator lip-sync (UNRENDERED)",
+   "branding": "In-this-town videos must NOT use 'Blox Town'/'Blox City' branding. 'Blox City' is reserved for later storyline videos (the user will brief them).",
+   "tiers": {
+    "full": {
+     "length_s": [
+      100,
+      165
+     ],
+     "words": [
+      450,
+      720
+     ]
+    },
+    "lite": {
+     "length_s": [
+      60,
+      78
+     ],
+     "words": [
+      250,
+      340
+     ]
+    },
+    "long": {
+     "what": "~20-min compilation of finished Shorts, 2 a week"
+    }
+   },
+   "cadence": "owner 2026-11-18: many 80-120 s Shorts + 2 compilations (~20 min) a week",
+   "script_v3": {
+    "_src": "measured 2026-11-19: 4 EARS transcripts + 2 dripdyl outliers (growth_scan); tools/script_lint_v3.py reads this",
+    "words": {
+     "full": [
+      450,
+      720
+     ],
+     "lite": [
+      250,
+      340
+     ]
+    },
+    "names_distinct_min": 1,
+    "numbers_per_100w_min": 2.0,
+    "quotes": [
+     1,
+     6
+    ],
+    "sfx_words_min": 1,
+    "clock_marks_min": 1,
+    "short_sent_share_le3_max": 0.42,
+    "long_sent_share_ge15_max": 0.25,
+    "connectors_per_100w_min": 3.8,
+    "sent_len_median": [
+     4,
+     9
+    ],
+    "wps_plan": 4.35
+   },
+   "narration_v3": {
+    "_src": "EARS 2026-11-19 on J0OQXSo1chk 34M, RVszt4A-ucc 31M, AYdbna6xYrU 19M, TAYxdugYgzg 16M (all pass); tools/ears_check.py reads targets",
+    "voice": "ElevenLabs premade Adam pNInz6obpgDQGcFmaJgB + D alien FX (owner 2026-11-19: 'use it everywhere')",
+    "fx": "asetrate=44100*1.1892,aresample=44100,atempo=0.8409,vibrato=f=5.5:d=0.08",
+    "generator": "tools/ep_audio/narrate_v3.py (routes v2 | v3 | sts; per section; character voices via audio/voices.json)",
+    "post": {
+     "mode": "flow",
+     "gap": 0.18,
+     "detect": 0.2,
+     "meme_pause": 0.0,
+     "max_beats": 3,
+     "tempo_max": 1.35
+    },
+    "targets": {
+     "wps": [
+      4.05,
+      4.65
+     ],
+     "gap_after_sentence_med": [
+      0.13,
+      0.24
+     ],
+     "sent_ends_paused_over_0.3_max": 0.16,
+     "pauses_0.3_0.6_per_min_max": 5.5,
+     "pauses_over_0.6_per_min_max": 0.6,
+     "f0_range_st_min": 11.0,
+     "f0_median_hz": [
+      155,
+      210
+     ],
+     "rising_min": 0.05,
+     "falling_max": 0.8,
+     "first_word_s_max": 0.06,
+     "script_match_min": 0.97
+    },
+    "targets_note": "v6.1: f0 >= 11.0 st, 0.3-0.6 s pauses <= 5.5/min (incl. up to 3 planned beats), sentence-end pauses <= 16 % - recalibrated so the owner-approved v4 reference passes; the 4 viral references still pass"
+   },
+   "package_v6": {
+    "_src": "yt-dlp 2026-11-19, last 60 Shorts of Gneef, GreenBroRants, ItsBaseplate, Ashyyy-, dripdyl: 3-4 words, 13-18 chars, emoji 98-100 %, 0 % hashtags or 'In this town' in titles; tools/package_check.py",
+    "title_words": [
+     2,
+     5
+    ],
+    "title_chars_max": 32,
+    "title_emoji": 1,
+    "desc_hashtags": [
+     3,
+     5
+    ],
+    "ig_hashtags": [
+     3,
+     5
+    ],
+    "default_desc_tags": [
+     "#roblox",
+     "#robloxstory",
+     "#robloxanimation",
+     "#shorts"
+    ],
+    "playlists": [
+     "In This Town",
+     "Blox City"
+    ],
+    "posting": "one fixed daily slot; same file to YT Shorts + IG Reels"
+   },
+   "narration_house": {
+    "_src": "owner 2026-11-20: 'This is what I want ... this exact voice each and every time for all of my videos' - reference takes yawn_curfew/voice_test/YawnCurfew_hook_v3_withbed.mp3 + YawnCurfew_FULL_v3_withbed.mp3",
+    "name": "house narration 'v3'",
+    "tool": "tools/ep_audio/narrate_house.py",
+    "model": "eleven_v3",
+    "settings": {
+     "stability": 0.0,
+     "similarity_boost": 0.75,
+     "style": 0.35,
+     "use_speaker_boost": true
+    },
+    "voices": {
+     "in_this_town": "Adam pNInz6obpgDQGcFmaJgB + D alien FX (FX on the whole take, after editing)",
+     "blox_city": "Alex yl2ZDV1MzN4HbQJbMihG, no FX"
+    },
+    "tts_script": "one paragraph = one request, performed as written: '[emotion] [speaking quickly] text'; sections with a written sound word / [yawns] / [laughs] / [whispers] get NO [speaking quickly]; energy tags rise from the trigger to the climax; CAPS payoff words; numbers as words",
+    "editing": {
+     "sentence_trim": "ffmpeg silenceremove -42 dB, inner silences capped 0.12 s",
+     "speech_wps": 4.75,
+     "stretch": [
+      0.8,
+      1.35
+     ],
+     "sound_word_sentences": "natural length",
+     "join_gap_s": 0.06,
+     "beats": "none unless the owner asks (max 3)"
+    },
+    "reference_measured": {
+     "full_take": {
+      "dur_s": 109.0,
+      "wps": 4.21,
+      "pitch_range_st": 12.7,
+      "gap_after_sentence": 0.18,
+      "pauses_0.3_0.6_per_min": 2.8
+     }
+    },
+    "voice_gate": "no samples (owner 2026-11-20); ears_check after the full take; the owner hears it with the look-dev/final"
+   }
+  },
+  "horror": {
+   "what": "dread / creature / 'every night it came closer' story",
+   "length_s": [
+    60,
+    120
+   ],
+   "look": {
+    "default": "ref_night",
+    "practical_interior": "ref_practical",
+    "grade_profile": "matte",
+    "status": "UNRENDERED"
+   },
+   "music": {
+    "bed": "drone/texture, sparse piano or music box, sub booms (tools/score.py --mood horror, or a CC0/CC-BY drone)",
+    "bpm": "none / 60-80 (inferred)",
+    "status": "no specific track verified"
+   },
+   "narration": {
+    "wpm_delivered": [
+     255,
+     290
+    ],
+    "wpm_basis": "measured: Haro Talks horror refs 262-265 wpm",
+    "wpm_text_estimate": [
+     235,
+     290
+    ],
+    "words_first_15s": [
+     62,
+     75
+    ],
+    "hook_by_s": 3,
+    "spark_every_s": 6,
+    "flat_fail_s": 10,
+    "exclam_per10": 0.8,
+    "spoken_sfx_per10": 0.6,
+    "spoken_sfx_style": "QUIET and clipped ('click.', 'creak...', 'knock. knock.'); never shouted. Measured horror refs used 0; the user wants some.",
+    "whisper_beats": 1,
+    "cta": "threat-CTA ('...visits everyone who doesn't leave a like') or one-word two-option question"
+   },
+   "cutting": {
+    "avg_shot_s": [
+     1.5,
+     2.2
+    ],
+    "cuts_per_min": [
+     26,
+     40
+    ],
+    "holds": "4-6 s only on dread beats ([hold], max 3)"
+   },
+   "mix": {
+    "bed_under_voice_lu": [
+     8,
+     10
+    ],
+    "duck_db": [
+     4,
+     6
+    ],
+    "rule": "near-silence 0.3-0.8 s before scares, then hit; melodic <= 45 % runtime"
+   },
+   "sfx_density": "low but loud hits (creaks, knocks, impacts)",
+   "captions": {
+    "words": [
+     1,
+     3
+    ],
+    "case": "ALL CAPS",
+    "y": 0.65,
+    "key_word": "#FFD21E",
+    "threat_word": "#E0141E"
+   },
+   "expressions": [
+    "worried",
+    "worried_dart",
+    "pop_shock",
+    "terror",
+    "scream",
+    "sad_tear",
+    "blank"
+   ]
+  },
+  "comedy": {
+   "what": "wish / absurd rule comedy, running gag",
+   "length_s": [
+    45,
+    90
+   ],
+   "look": {
+    "default": "ref_day",
+    "interior": "ref_practical",
+    "grade_profile": "day",
+    "status": "UNRENDERED"
+   },
+   "music": {
+    "bed": "pizzicato / bassoon / ukulele / chiptune (e.g. CC-BY Kevin MacLeod 'Sneaky Snitch', credit in caption)",
+    "bpm": "100-125 (inferred)",
+    "status": "no specific track verified; licence must be commercial-OK"
+   },
+   "narration": {
+    "wpm_delivered": [
+     255,
+     290
+    ],
+    "wpm_basis": "measured: DinoPlays 267, RealDanty 280 wpm",
+    "wpm_text_estimate": [
+     235,
+     290
+    ],
+    "words_first_15s": [
+     62,
+     75
+    ],
+    "hook_by_s": 3,
+    "spark_every_s": 6,
+    "flat_fail_s": 10,
+    "exclam_per10": 1.5,
+    "spoken_sfx_per10": 1.0,
+    "spoken_sfx_style": "SHOUTED running gag, one repeated SFX word ~1 per 10 s ('Poof!'), clusters of 3 at the peak (measured DinoPlays; mosquito_town)",
+    "whisper_beats": 1,
+    "cta": "one-word two-option question ('BITE or HIDE?')"
+   },
+   "cutting": {
+    "avg_shot_s": [
+     1.4,
+     1.9
+    ],
+    "cuts_per_min": [
+     28,
+     40
+    ]
+   },
+   "mix": {
+    "bed_under_voice_lu": [
+     8,
+     8
+    ],
+    "duck_db": [
+     3,
+     3
+    ],
+    "rule": "music stops dead on the punchline, restarts next beat"
+   },
+   "sfx_density": "high (pops, boings, bonks)",
+   "captions": {
+    "words": [
+     1,
+     3
+    ],
+    "case": "ALL CAPS",
+    "y": 0.65,
+    "key_word": "#FFD21E",
+    "sfx_word": "caps, accent, 1.3x, stretched letters (BZZZZ)"
+   },
+   "expressions": [
+    "content",
+    "smug_up",
+    "grin",
+    "joy",
+    "blank",
+    "pop_shock",
+    "sus"
+   ]
+  },
+  "emotional_twist": {
+   "what": "wholesome / sad twist (time travel to save someone, lost sibling)",
+   "length_s": [
+    60,
+    120
+   ],
+   "look": {
+    "default": "ref_day",
+    "sad_turn": "ref_night (one dusk/night beat only)",
+    "interior": "ref_practical",
+    "grade_profile": "day",
+    "status": "UNRENDERED"
+   },
+   "music": {
+    "bed": "piano + strings, warm",
+    "bpm": "60-80 (inferred)",
+    "status": "no specific track verified"
+   },
+   "narration": {
+    "wpm_delivered": [
+     245,
+     290
+    ],
+    "wpm_basis": "inferred: legendRBX wholesome 293 wpm (measured) but a slower calm beat is allowed; IG daylight ref captions suggest 150-190 (inferred, not heard)",
+    "wpm_text_estimate": [
+     225,
+     290
+    ],
+    "words_first_15s": [
+     58,
+     75
+    ],
+    "hook_by_s": 3,
+    "spark_every_s": 7,
+    "flat_fail_s": 12,
+    "exclam_per10": 0.6,
+    "spoken_sfx_per10": 0.3,
+    "spoken_sfx_style": "few, soft (a 'click' of a door, 'drip')",
+    "whisper_beats": 1,
+    "cta": "one-word two-option question"
+   },
+   "cutting": {
+    "avg_shot_s": [
+     1.6,
+     2.2
+    ],
+    "cuts_per_min": [
+     26,
+     36
+    ],
+    "holds": "tear ECU 1.5-2 s push-in"
+   },
+   "mix": {
+    "bed_under_voice_lu": [
+     8,
+     10
+    ],
+    "duck_db": [
+     2,
+     3
+    ],
+    "rule": "swell into the reveal, thin to piano under the last line"
+   },
+   "sfx_density": "low",
+   "captions": {
+    "words": [
+     1,
+     3
+    ],
+    "case": "ALL CAPS",
+    "y": 0.7,
+    "key_word": "#FFD21E"
+   },
+   "expressions": [
+    "content",
+    "sad_tear",
+    "worried",
+    "relief",
+    "pop_shock",
+    "smile"
+   ]
+  },
+  "chase_action": {
+   "what": "chase / escape / action set-piece",
+   "length_s": [
+    45,
+    90
+   ],
+   "look": {
+    "default": "ref_day",
+    "night": "ref_night",
+    "grade_profile": "day",
+    "status": "UNRENDERED"
+   },
+   "music": {
+    "bed": "trap-phonk / hybrid percussion, 808 (commercial-OK source only)",
+    "bpm": "130-160 (inferred)",
+    "status": "no specific track verified"
+   },
+   "narration": {
+    "wpm_delivered": [
+     260,
+     295
+    ],
+    "wpm_basis": "inferred from the fastest measured refs (280-293)",
+    "wpm_text_estimate": [
+     240,
+     295
+    ],
+    "words_first_15s": [
+     64,
+     76
+    ],
+    "hook_by_s": 3,
+    "spark_every_s": 5,
+    "flat_fail_s": 8,
+    "exclam_per10": 1.5,
+    "spoken_sfx_per10": 1.0,
+    "spoken_sfx_style": "shouted impact words on cuts (SLAM, VROOM, SKRRT)",
+    "whisper_beats": 1,
+    "cta": "one-word two-option question"
+   },
+   "cutting": {
+    "avg_shot_s": [
+     1.2,
+     1.7
+    ],
+    "cuts_per_min": [
+     32,
+     46
+    ]
+   },
+   "mix": {
+    "bed_under_voice_lu": [
+     6,
+     6
+    ],
+    "duck_db": [
+     5,
+     6
+    ],
+    "rule": "riser into chase, beat drop on action, cut on capture; bass shelf on the bed"
+   },
+   "sfx_density": "high",
+   "captions": {
+    "words": [
+     1,
+     3
+    ],
+    "case": "ALL CAPS",
+    "y": 0.65,
+    "key_word": "#FFD21E",
+    "threat_word": "#E0141E"
+   },
+   "expressions": [
+    "pop_shock",
+    "furious",
+    "terror",
+    "worried_dart",
+    "determined",
+    "grin"
+   ]
+  },
+  "natural": {
+   "what": "LEGACY calm v2 pace (pre-2026-11-14). Only when the user asks for a calm read.",
+   "length_s": [
+    45,
+    120
+   ],
+   "look": {
+    "default": "ref_matte",
+    "grade_profile": "matte",
+    "status": "UNRENDERED"
+   },
+   "music": {
+    "bed": "per docs/AUDIO.md (generated score)",
+    "status": "legacy"
+   },
+   "narration": {
+    "wpm_delivered": [
+     215,
+     245
+    ],
+    "wpm_basis": "legacy v2 target (measured refs say this reads as 'just delivering a story')",
+    "wpm_text_estimate": [
+     200,
+     250
+    ],
+    "words_first_15s": [
+     60,
+     72
+    ],
+    "hook_by_s": 3,
+    "spark_every_s": 8,
+    "flat_fail_s": 14,
+    "exclam_per10": 0.5,
+    "spoken_sfx_per10": 0.3,
+    "spoken_sfx_style": "optional",
+    "whisper_beats": 1,
+    "cta": "one-word two-option question"
+   },
+   "cutting": {
+    "avg_shot_s": [
+     1.5,
+     1.9
+    ],
+    "cuts_per_min": [
+     26,
+     40
+    ]
+   },
+   "mix": {
+    "bed_under_voice_lu": [
+     6,
+     8
+    ],
+    "duck_db": [
+     3,
+     5
+    ]
+   },
+   "sfx_density": "medium",
+   "captions": {
+    "words": [
+     1,
+     3
+    ],
+    "case": "ALL CAPS",
+    "y": 0.65,
+    "key_word": "#FFD21E"
+   },
+   "expressions": [
+    "neutral",
+    "worried",
+    "gasp",
+    "smile"
+   ]
+  }
+ },
+ "expression_sets_note": "names are acting.EXPR keys; new ones (blank, pop_shock, sad_tear, worried_dart, smug_up, content) fall back to the nearest 4x4 atlas cell until 5x5 atlases are generated (UNRENDERED)."
+}

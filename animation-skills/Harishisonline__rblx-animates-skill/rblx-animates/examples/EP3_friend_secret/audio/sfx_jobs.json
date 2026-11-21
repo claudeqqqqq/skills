@@ -1,0 +1,12 @@
+{
+ "dundun": {"copy": "~/RobloxStories_tmp/poor_boy_school/sfx/dundun.mp3"},
+ "scratch": {"copy": "~/RobloxStories_tmp/poor_boy_school/sfx/scratch.mp3"},
+ "bruh": {"copy": "~/RobloxStories_tmp/poor_boy_school/sfx/bruh.mp3"},
+ "ohhh": {"copy": "~/RobloxStories_tmp/poor_boy_school/sfx/ohhh.mp3"},
+ "fahhh": {"copy": "~/RobloxStories_tmp/poor_boy_school/sfx/fahhh.mp3"},
+ "quack": {"sfx": "One single squeaky rubber duck toy quack, clean, close, comedic", "dur": 0.8},
+ "quack_chorus": {"sfx": "School cafeteria full of kids loudly imitating duck quacks to tease someone, quack quack, laughing, indoor", "dur": 2.5},
+ "phone_buzz": {"sfx": "Smartphone vibrating on a wooden desk, three short buzzes, notification", "dur": 1.6},
+ "thunder": {"sfx": "Loud close thunder crack followed by an electrical power-down hum as all lights shut off, night, outdoors", "dur": 2.5},
+ "screams": {"sfx": "Group of kids screaming in surprise in the dark, short, cartoonish, comedic, outdoors at a campsite", "dur": 1.6}
+}

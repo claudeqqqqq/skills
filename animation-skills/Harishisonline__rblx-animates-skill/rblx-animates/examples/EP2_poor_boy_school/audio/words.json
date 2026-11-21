@@ -1,0 +1,1762 @@
+[
+{
+"word": "They",
+"start": 0.235,
+"end": 0.248
+},
+{
+"word": "laughed",
+"start": 0.276,
+"end": 0.47
+},
+{
+"word": "at",
+"start": 0.495,
+"end": 0.544
+},
+{
+"word": "my",
+"start": 0.619,
+"end": 0.767
+},
+{
+"word": "shoes",
+"start": 0.804,
+"end": 0.989
+},
+{
+"word": "for",
+"start": 1.044,
+"end": 1.211
+},
+{
+"word": "three",
+"start": 1.248,
+"end": 1.433
+},
+{
+"word": "years.",
+"start": 1.519,
+"end": 2.026
+},
+{
+"word": "Then,",
+"start": 2.07,
+"end": 2.396
+},
+{
+"word": "one",
+"start": 2.433,
+"end": 2.544
+},
+{
+"word": "Monday,",
+"start": 2.608,
+"end": 3.063
+},
+{
+"word": "I",
+"start": 3.1,
+"end": 3.137
+},
+{
+"word": "bought",
+"start": 3.18,
+"end": 3.433
+},
+{
+"word": "the",
+"start": 3.452,
+"end": 3.507
+},
+{
+"word": "school.",
+"start": 3.56,
+"end": 3.952
+},
+{
+"word": "At",
+"start": 4.418,
+"end": 4.517
+},
+{
+"word": "Blox",
+"start": 4.569,
+"end": 4.887
+},
+{
+"word": "City",
+"start": 4.931,
+"end": 5.109
+},
+{
+"word": "High,",
+"start": 5.183,
+"end": 5.554
+},
+{
+"word": "I",
+"start": 5.628,
+"end": 5.702
+},
+{
+"word": "was",
+"start": 5.757,
+"end": 5.924
+},
+{
+"word": "the",
+"start": 5.97,
+"end": 6.109
+},
+{
+"word": "poor",
+"start": 6.146,
+"end": 6.294
+},
+{
+"word": "kid.",
+"start": 6.35,
+"end": 6.591
+},
+{
+"word": "Same",
+"start": 6.65,
+"end": 6.887
+},
+{
+"word": "hoodie.",
+"start": 6.93,
+"end": 7.331
+},
+{
+"word": "Same",
+"start": 7.376,
+"end": 7.554
+},
+{
+"word": "shoes.",
+"start": 7.628,
+"end": 8.072
+},
+{
+"word": "The",
+"start": 8.109,
+"end": 8.22
+},
+{
+"word": "left",
+"start": 8.25,
+"end": 8.369
+},
+{
+"word": "one",
+"start": 8.424,
+"end": 8.591
+},
+{
+"word": "had",
+"start": 8.628,
+"end": 8.739
+},
+{
+"word": "a",
+"start": 8.776,
+"end": 8.813
+},
+{
+"word": "hole",
+"start": 8.872,
+"end": 9.109
+},
+{
+"word": "you",
+"start": 9.146,
+"end": 9.257
+},
+{
+"word": "could",
+"start": 9.282,
+"end": 9.406
+},
+{
+"word": "fit",
+"start": 9.424,
+"end": 9.48
+},
+{
+"word": "a",
+"start": 9.554,
+"end": 9.628
+},
+{
+"word": "pencil",
+"start": 9.67,
+"end": 9.924
+},
+{
+"word": "through.",
+"start": 9.961,
+"end": 10.294
+},
+{
+"word": "Ryan",
+"start": 10.77,
+"end": 11.007
+},
+{
+"word": "made",
+"start": 11.052,
+"end": 11.23
+},
+{
+"word": "sure",
+"start": 11.274,
+"end": 11.452
+},
+{
+"word": "everyone",
+"start": 11.501,
+"end": 11.896
+},
+{
+"word": "noticed.",
+"start": 11.961,
+"end": 12.415
+},
+{
+"word": "Every",
+"start": 12.464,
+"end": 12.711
+},
+{
+"word": "morning,",
+"start": 12.757,
+"end": 13.156
+},
+{
+"word": "he",
+"start": 13.205,
+"end": 13.304
+},
+{
+"word": "knocked",
+"start": 13.341,
+"end": 13.6
+},
+{
+"word": "my",
+"start": 13.674,
+"end": 13.822
+},
+{
+"word": "books",
+"start": 13.859,
+"end": 14.044
+},
+{
+"word": "out",
+"start": 14.081,
+"end": 14.193
+},
+{
+"word": "of",
+"start": 14.242,
+"end": 14.341
+},
+{
+"word": "my",
+"start": 14.366,
+"end": 14.415
+},
+{
+"word": "hands.",
+"start": 14.489,
+"end": 14.933
+},
+{
+"word": "\"Maybe",
+"start": 15.406,
+"end": 15.572
+},
+{
+"word": "buy",
+"start": 15.628,
+"end": 15.794
+},
+{
+"word": "real",
+"start": 15.854,
+"end": 16.091
+},
+{
+"word": "shoes",
+"start": 16.14,
+"end": 16.387
+},
+{
+"word": "before",
+"start": 16.419,
+"end": 16.609
+},
+{
+"word": "you",
+"start": 16.646,
+"end": 16.757
+},
+{
+"word": "come",
+"start": 16.787,
+"end": 16.906
+},
+{
+"word": "here,",
+"start": 16.935,
+"end": 17.128
+},
+{
+"word": "Harry.\"",
+"start": 17.19,
+"end": 17.646
+},
+{
+"word": "Everyone",
+"start": 18.104,
+"end": 18.433
+},
+{
+"word": "laughed.",
+"start": 18.489,
+"end": 19.026
+},
+{
+"word": "Nobody",
+"start": 19.079,
+"end": 19.396
+},
+{
+"word": "helped.",
+"start": 19.449,
+"end": 19.841
+},
+{
+"word": "Then",
+"start": 20.302,
+"end": 20.48
+},
+{
+"word": "they",
+"start": 20.524,
+"end": 20.702
+},
+{
+"word": "found",
+"start": 20.739,
+"end": 20.924
+},
+{
+"word": "Milo.",
+"start": 21.028,
+"end": 21.554
+},
+{
+"word": "Smallest",
+"start": 21.591,
+"end": 21.961
+},
+{
+"word": "kid",
+"start": 22.017,
+"end": 22.183
+},
+{
+"word": "in",
+"start": 22.208,
+"end": 22.257
+},
+{
+"word": "sixth",
+"start": 22.319,
+"end": 22.628
+},
+{
+"word": "grade.",
+"start": 22.677,
+"end": 22.998
+},
+{
+"word": "His",
+"start": 23.035,
+"end": 23.146
+},
+{
+"word": "lunch",
+"start": 23.208,
+"end": 23.517
+},
+{
+"word": "hit",
+"start": 23.554,
+"end": 23.665
+},
+{
+"word": "the",
+"start": 23.683,
+"end": 23.739
+},
+{
+"word": "floor.",
+"start": 23.801,
+"end": 24.183
+},
+{
+"word": "I",
+"start": 24.674,
+"end": 24.748
+},
+{
+"word": "knelt",
+"start": 24.797,
+"end": 24.97
+},
+{
+"word": "down",
+"start": 25.015,
+"end": 25.193
+},
+{
+"word": "next",
+"start": 25.252,
+"end": 25.489
+},
+{
+"word": "to",
+"start": 25.514,
+"end": 25.563
+},
+{
+"word": "him.",
+"start": 25.6,
+"end": 25.785
+},
+{
+"word": "\"It's",
+"start": 25.822,
+"end": 26.119
+},
+{
+"word": "okay.",
+"start": 26.156,
+"end": 26.378
+},
+{
+"word": "I've",
+"start": 26.415,
+"end": 26.526
+},
+{
+"word": "got",
+"start": 26.581,
+"end": 26.748
+},
+{
+"word": "you.\"",
+"start": 26.804,
+"end": 27.156
+},
+{
+"word": "Ryan",
+"start": 27.193,
+"end": 27.341
+},
+{
+"word": "grinned.",
+"start": 27.396,
+"end": 27.859
+},
+{
+"word": "\"Look.",
+"start": 27.896,
+"end": 28.156
+},
+{
+"word": "The",
+"start": 28.193,
+"end": 28.304
+},
+{
+"word": "poor",
+"start": 28.348,
+"end": 28.526
+},
+{
+"word": "kid",
+"start": 28.581,
+"end": 28.748
+},
+{
+"word": "found",
+"start": 28.785,
+"end": 28.97
+},
+{
+"word": "a",
+"start": 29.044,
+"end": 29.119
+},
+{
+"word": "pet.\"",
+"start": 29.193,
+"end": 29.489
+},
+{
+"word": "Nobody",
+"start": 29.958,
+"end": 30.276
+},
+{
+"word": "knew",
+"start": 30.32,
+"end": 30.498
+},
+{
+"word": "what",
+"start": 30.528,
+"end": 30.646
+},
+{
+"word": "I",
+"start": 30.72,
+"end": 30.794
+},
+{
+"word": "did",
+"start": 30.831,
+"end": 30.943
+},
+{
+"word": "after",
+"start": 30.98,
+"end": 31.165
+},
+{
+"word": "school.",
+"start": 31.218,
+"end": 31.609
+},
+{
+"word": "Four",
+"start": 32.07,
+"end": 32.248
+},
+{
+"word": "o'clock,",
+"start": 32.322,
+"end": 32.767
+},
+{
+"word": "I",
+"start": 32.804,
+"end": 32.841
+},
+{
+"word": "delivered",
+"start": 32.878,
+"end": 33.211
+},
+{
+"word": "pizza.",
+"start": 33.285,
+"end": 33.878
+},
+{
+"word": "Seven,",
+"start": 33.915,
+"end": 34.248
+},
+{
+"word": "I",
+"start": 34.285,
+"end": 34.322
+},
+{
+"word": "fixed",
+"start": 34.371,
+"end": 34.619
+},
+{
+"word": "the",
+"start": 34.637,
+"end": 34.693
+},
+{
+"word": "neighbors'",
+"start": 34.73,
+"end": 35.359
+},
+{
+"word": "laptops.",
+"start": 35.396,
+"end": 35.73
+},
+{
+"word": "And",
+"start": 35.767,
+"end": 35.878
+},
+{
+"word": "at",
+"start": 35.927,
+"end": 36.026
+},
+{
+"word": "midnight,",
+"start": 36.075,
+"end": 36.544
+},
+{
+"word": "on",
+"start": 36.569,
+"end": 36.619
+},
+{
+"word": "a",
+"start": 36.656,
+"end": 36.693
+},
+{
+"word": "computer",
+"start": 36.742,
+"end": 37.137
+},
+{
+"word": "older",
+"start": 37.186,
+"end": 37.433
+},
+{
+"word": "than",
+"start": 37.463,
+"end": 37.581
+},
+{
+"word": "me,",
+"start": 37.656,
+"end": 37.878
+},
+{
+"word": "I",
+"start": 37.952,
+"end": 38.026
+},
+{
+"word": "built",
+"start": 38.063,
+"end": 38.248
+},
+{
+"word": "a",
+"start": 38.285,
+"end": 38.322
+},
+{
+"word": "game.",
+"start": 38.381,
+"end": 38.693
+},
+{
+"word": "A",
+"start": 38.73,
+"end": 38.767
+},
+{
+"word": "tycoon",
+"start": 38.866,
+"end": 39.285
+},
+{
+"word": "game",
+"start": 39.344,
+"end": 39.581
+},
+{
+"word": "where",
+"start": 39.606,
+"end": 39.73
+},
+{
+"word": "you",
+"start": 39.748,
+"end": 39.804
+},
+{
+"word": "build",
+"start": 39.841,
+"end": 40.026
+},
+{
+"word": "a",
+"start": 40.063,
+"end": 40.1
+},
+{
+"word": "school,",
+"start": 40.153,
+"end": 40.619
+},
+{
+"word": "brick",
+"start": 40.644,
+"end": 40.767
+},
+{
+"word": "by",
+"start": 40.841,
+"end": 40.989
+},
+{
+"word": "brick.",
+"start": 41.051,
+"end": 41.433
+},
+{
+"word": "In",
+"start": 41.458,
+"end": 41.507
+},
+{
+"word": "March,",
+"start": 41.569,
+"end": 41.952
+},
+{
+"word": "it",
+"start": 42.001,
+"end": 42.1
+},
+{
+"word": "had",
+"start": 42.156,
+"end": 42.322
+},
+{
+"word": "ten",
+"start": 42.378,
+"end": 42.544
+},
+{
+"word": "players.",
+"start": 42.619,
+"end": 43.211
+},
+{
+"word": "In",
+"start": 43.653,
+"end": 43.702
+},
+{
+"word": "June,",
+"start": 43.791,
+"end": 44.22
+},
+{
+"word": "ten",
+"start": 44.276,
+"end": 44.443
+},
+{
+"word": "thousand.",
+"start": 44.508,
+"end": 45.109
+},
+{
+"word": "By",
+"start": 45.551,
+"end": 45.6
+},
+{
+"word": "September,",
+"start": 45.659,
+"end": 46.267
+},
+{
+"word": "four",
+"start": 46.341,
+"end": 46.637
+},
+{
+"word": "million.",
+"start": 46.711,
+"end": 47.304
+},
+{
+"word": "I",
+"start": 47.757,
+"end": 47.794
+},
+{
+"word": "didn't",
+"start": 47.839,
+"end": 48.091
+},
+{
+"word": "buy",
+"start": 48.128,
+"end": 48.239
+},
+{
+"word": "shoes.",
+"start": 48.325,
+"end": 48.831
+},
+{
+"word": "I",
+"start": 48.869,
+"end": 48.906
+},
+{
+"word": "saved",
+"start": 48.968,
+"end": 49.276
+},
+{
+"word": "every",
+"start": 49.338,
+"end": 49.646
+},
+{
+"word": "coin.",
+"start": 49.735,
+"end": 50.165
+},
+{
+"word": "Then",
+"start": 50.209,
+"end": 50.387
+},
+{
+"word": "a",
+"start": 50.461,
+"end": 50.535
+},
+{
+"word": "letter",
+"start": 50.567,
+"end": 50.757
+},
+{
+"word": "came",
+"start": 50.817,
+"end": 51.054
+},
+{
+"word": "home.",
+"start": 51.113,
+"end": 51.424
+},
+{
+"word": "Blox",
+"start": 51.477,
+"end": 51.794
+},
+{
+"word": "City",
+"start": 51.839,
+"end": 52.017
+},
+{
+"word": "High",
+"start": 52.076,
+"end": 52.313
+},
+{
+"word": "was",
+"start": 52.369,
+"end": 52.535
+},
+{
+"word": "closing.",
+"start": 52.6,
+"end": 53.202
+},
+{
+"word": "Sold,",
+"start": 53.276,
+"end": 53.646
+},
+{
+"word": "to",
+"start": 53.695,
+"end": 53.794
+},
+{
+"word": "be",
+"start": 53.819,
+"end": 53.869
+},
+{
+"word": "torn",
+"start": 53.943,
+"end": 54.239
+},
+{
+"word": "down",
+"start": 54.283,
+"end": 54.461
+},
+{
+"word": "for",
+"start": 54.498,
+"end": 54.609
+},
+{
+"word": "a",
+"start": 54.683,
+"end": 54.757
+},
+{
+"word": "parking",
+"start": 54.794,
+"end": 55.054
+},
+{
+"word": "lot.",
+"start": 55.146,
+"end": 55.498
+},
+{
+"word": "And",
+"start": 55.517,
+"end": 55.572
+},
+{
+"word": "the",
+"start": 55.591,
+"end": 55.646
+},
+{
+"word": "man",
+"start": 55.702,
+"end": 55.869
+},
+{
+"word": "buying",
+"start": 55.921,
+"end": 56.239
+},
+{
+"word": "it",
+"start": 56.288,
+"end": 56.387
+},
+{
+"word": "was",
+"start": 56.443,
+"end": 56.609
+},
+{
+"word": "Ryan's",
+"start": 56.683,
+"end": 57.054
+},
+{
+"word": "dad.",
+"start": 57.146,
+"end": 57.425
+},
+{
+"word": "On",
+"start": 57.915,
+"end": 58.063
+},
+{
+"word": "Monday,",
+"start": 58.116,
+"end": 58.507
+},
+{
+"word": "a",
+"start": 58.581,
+"end": 58.656
+},
+{
+"word": "black",
+"start": 58.705,
+"end": 58.952
+},
+{
+"word": "car",
+"start": 59.007,
+"end": 59.174
+},
+{
+"word": "stopped",
+"start": 59.23,
+"end": 59.619
+},
+{
+"word": "at",
+"start": 59.644,
+"end": 59.693
+},
+{
+"word": "the",
+"start": 59.711,
+"end": 59.767
+},
+{
+"word": "gates.",
+"start": 59.829,
+"end": 60.211
+},
+{
+"word": "I",
+"start": 60.285,
+"end": 60.359
+},
+{
+"word": "stepped",
+"start": 60.396,
+"end": 60.656
+},
+{
+"word": "out.",
+"start": 60.73,
+"end": 61.026
+},
+{
+"word": "Same",
+"start": 61.07,
+"end": 61.248
+},
+{
+"word": "hoodie.",
+"start": 61.291,
+"end": 61.693
+},
+{
+"word": "Same",
+"start": 61.737,
+"end": 61.915
+},
+{
+"word": "shoes.",
+"start": 62.001,
+"end": 62.581
+},
+{
+"word": "Grandpa",
+"start": 62.606,
+"end": 62.952
+},
+{
+"word": "followed",
+"start": 62.985,
+"end": 63.248
+},
+{
+"word": "me",
+"start": 63.273,
+"end": 63.322
+},
+{
+"word": "with",
+"start": 63.352,
+"end": 63.47
+},
+{
+"word": "a",
+"start": 63.507,
+"end": 63.544
+},
+{
+"word": "folder,",
+"start": 63.597,
+"end": 63.989
+},
+{
+"word": "because",
+"start": 64.026,
+"end": 64.285
+},
+{
+"word": "I'm",
+"start": 64.359,
+"end": 64.507
+},
+{
+"word": "fourteen",
+"start": 64.573,
+"end": 65.1
+},
+{
+"word": "and",
+"start": 65.119,
+"end": 65.174
+},
+{
+"word": "somebody",
+"start": 65.215,
+"end": 65.544
+},
+{
+"word": "has",
+"start": 65.619,
+"end": 65.841
+},
+{
+"word": "to",
+"start": 65.866,
+"end": 65.915
+},
+{
+"word": "sign.",
+"start": 65.989,
+"end": 66.359
+},
+{
+"word": "The",
+"start": 66.396,
+"end": 66.507
+},
+{
+"word": "principal",
+"start": 66.544,
+"end": 66.878
+},
+{
+"word": "stared.",
+"start": 66.952,
+"end": 67.433
+},
+{
+"word": "\"Harry?",
+"start": 67.452,
+"end": 67.915
+},
+{
+"word": "You're",
+"start": 67.933,
+"end": 68.063
+},
+{
+"word": "here",
+"start": 68.093,
+"end": 68.211
+},
+{
+"word": "for",
+"start": 68.248,
+"end": 68.359
+},
+{
+"word": "the",
+"start": 68.396,
+"end": 68.507
+},
+{
+"word": "ownership",
+"start": 68.544,
+"end": 68.878
+},
+{
+"word": "meeting?\"",
+"start": 68.915,
+"end": 69.248
+},
+{
+"word": "Ryan",
+"start": 69.322,
+"end": 69.619
+},
+{
+"word": "froze.",
+"start": 69.718,
+"end": 70.248
+},
+{
+"word": "\"Ownership",
+"start": 70.683,
+"end": 71.22
+},
+{
+"word": "what?\"",
+"start": 71.294,
+"end": 71.665
+},
+{
+"word": "In",
+"start": 72.131,
+"end": 72.23
+},
+{
+"word": "the",
+"start": 72.248,
+"end": 72.304
+},
+{
+"word": "auditorium,",
+"start": 72.359,
+"end": 73.044
+},
+{
+"word": "the",
+"start": 73.063,
+"end": 73.119
+},
+{
+"word": "principal",
+"start": 73.156,
+"end": 73.489
+},
+{
+"word": "tapped",
+"start": 73.531,
+"end": 73.785
+},
+{
+"word": "the",
+"start": 73.804,
+"end": 73.859
+},
+{
+"word": "mic.",
+"start": 73.952,
+"end": 74.23
+},
+{
+"word": "\"Blox",
+"start": 74.267,
+"end": 74.6
+},
+{
+"word": "City",
+"start": 74.644,
+"end": 74.822
+},
+{
+"word": "High",
+"start": 74.881,
+"end": 75.119
+},
+{
+"word": "has",
+"start": 75.174,
+"end": 75.341
+},
+{
+"word": "a",
+"start": 75.378,
+"end": 75.415
+},
+{
+"word": "new",
+"start": 75.452,
+"end": 75.563
+},
+{
+"word": "owner.",
+"start": 75.625,
+"end": 75.933
+},
+{
+"word": "The",
+"start": 75.97,
+"end": 76.081
+},
+{
+"word": "money",
+"start": 76.131,
+"end": 76.378
+},
+{
+"word": "came",
+"start": 76.407,
+"end": 76.526
+},
+{
+"word": "from",
+"start": 76.556,
+"end": 76.674
+},
+{
+"word": "a",
+"start": 76.748,
+"end": 76.822
+},
+{
+"word": "game",
+"start": 76.867,
+"end": 77.044
+},
+{
+"word": "four",
+"start": 77.104,
+"end": 77.341
+},
+{
+"word": "million",
+"start": 77.396,
+"end": 77.785
+},
+{
+"word": "kids",
+"start": 77.844,
+"end": 78.081
+},
+{
+"word": "play.\"",
+"start": 78.156,
+"end": 78.526
+},
+{
+"word": "She",
+"start": 78.563,
+"end": 78.674
+},
+{
+"word": "looked",
+"start": 78.706,
+"end": 78.896
+},
+{
+"word": "at",
+"start": 78.945,
+"end": 79.044
+},
+{
+"word": "me.",
+"start": 79.094,
+"end": 79.267
+},
+{
+"word": "\"Harry",
+"start": 79.304,
+"end": 79.637
+},
+{
+"word": "built",
+"start": 79.686,
+"end": 79.933
+},
+{
+"word": "it.\"",
+"start": 79.982,
+"end": 80.156
+},
+{
+"word": "Ryan's",
+"start": 80.646,
+"end": 81.017
+},
+{
+"word": "dad",
+"start": 81.072,
+"end": 81.239
+},
+{
+"word": "never",
+"start": 81.288,
+"end": 81.535
+},
+{
+"word": "got",
+"start": 81.591,
+"end": 81.757
+},
+{
+"word": "his",
+"start": 81.776,
+"end": 81.831
+},
+{
+"word": "parking",
+"start": 81.878,
+"end": 82.202
+},
+{
+"word": "lot.",
+"start": 82.276,
+"end": 82.572
+},
+{
+"word": "Later,",
+"start": 83.038,
+"end": 83.433
+},
+{
+"word": "Ryan",
+"start": 83.493,
+"end": 83.73
+},
+{
+"word": "found",
+"start": 83.779,
+"end": 84.026
+},
+{
+"word": "me",
+"start": 84.051,
+"end": 84.1
+},
+{
+"word": "by",
+"start": 84.149,
+"end": 84.248
+},
+{
+"word": "the",
+"start": 84.267,
+"end": 84.322
+},
+{
+"word": "lockers.",
+"start": 84.381,
+"end": 84.989
+},
+{
+"word": "\"So",
+"start": 85.063,
+"end": 85.359
+},
+{
+"word": "are",
+"start": 85.415,
+"end": 85.581
+},
+{
+"word": "you",
+"start": 85.6,
+"end": 85.656
+},
+{
+"word": "kicking",
+"start": 85.693,
+"end": 85.952
+},
+{
+"word": "me",
+"start": 86.001,
+"end": 86.1
+},
+{
+"word": "out?\"",
+"start": 86.174,
+"end": 86.47
+},
+{
+"word": "His",
+"start": 86.507,
+"end": 86.619
+},
+{
+"word": "books",
+"start": 86.681,
+"end": 86.989
+},
+{
+"word": "slipped",
+"start": 87.026,
+"end": 87.285
+},
+{
+"word": "out",
+"start": 87.304,
+"end": 87.359
+},
+{
+"word": "of",
+"start": 87.384,
+"end": 87.433
+},
+{
+"word": "his",
+"start": 87.47,
+"end": 87.581
+},
+{
+"word": "hands.",
+"start": 87.656,
+"end": 88.1
+},
+{
+"word": "I",
+"start": 88.137,
+"end": 88.174
+},
+{
+"word": "picked",
+"start": 88.217,
+"end": 88.47
+},
+{
+"word": "them",
+"start": 88.5,
+"end": 88.619
+},
+{
+"word": "up.",
+"start": 88.693,
+"end": 88.915
+},
+{
+"word": "\"No.",
+"start": 89.369,
+"end": 89.702
+},
+{
+"word": "But",
+"start": 89.739,
+"end": 89.85
+},
+{
+"word": "from",
+"start": 89.894,
+"end": 90.072
+},
+{
+"word": "today,",
+"start": 90.134,
+"end": 90.517
+},
+{
+"word": "nobody",
+"start": 90.581,
+"end": 90.961
+},
+{
+"word": "here",
+"start": 91.006,
+"end": 91.183
+},
+{
+"word": "eats",
+"start": 91.243,
+"end": 91.48
+},
+{
+"word": "lunch",
+"start": 91.529,
+"end": 91.776
+},
+{
+"word": "off",
+"start": 91.813,
+"end": 91.924
+},
+{
+"word": "the",
+"start": 91.943,
+"end": 91.998
+},
+{
+"word": "floor.\"",
+"start": 92.072,
+"end": 92.591
+},
+{
+"word": "Then",
+"start": 92.62,
+"end": 92.739
+},
+{
+"word": "I",
+"start": 92.776,
+"end": 92.813
+},
+{
+"word": "called",
+"start": 92.844,
+"end": 93.035
+},
+{
+"word": "Milo",
+"start": 93.124,
+"end": 93.48
+},
+{
+"word": "on",
+"start": 93.529,
+"end": 93.628
+},
+{
+"word": "stage.",
+"start": 93.702,
+"end": 94.146
+},
+{
+"word": "Free",
+"start": 94.206,
+"end": 94.443
+},
+{
+"word": "lunch",
+"start": 94.492,
+"end": 94.739
+},
+{
+"word": "and",
+"start": 94.776,
+"end": 94.887
+},
+{
+"word": "new",
+"start": 94.943,
+"end": 95.109
+},
+{
+"word": "shoes,",
+"start": 95.171,
+"end": 95.554
+},
+{
+"word": "for",
+"start": 95.572,
+"end": 95.628
+},
+{
+"word": "every",
+"start": 95.69,
+"end": 95.998
+},
+{
+"word": "kid",
+"start": 96.054,
+"end": 96.22
+},
+{
+"word": "who",
+"start": 96.239,
+"end": 96.294
+},
+{
+"word": "needs",
+"start": 96.344,
+"end": 96.591
+},
+{
+"word": "them.",
+"start": 96.65,
+"end": 96.961
+},
+{
+"word": "I",
+"start": 97.415,
+"end": 97.452
+},
+{
+"word": "kept",
+"start": 97.511,
+"end": 97.748
+},
+{
+"word": "mine,",
+"start": 97.807,
+"end": 98.119
+},
+{
+"word": "though.",
+"start": 98.129,
+"end": 98.267
+},
+{
+"word": "The",
+"start": 98.304,
+"end": 98.415
+},
+{
+"word": "hole",
+"start": 98.459,
+"end": 98.637
+},
+{
+"word": "still",
+"start": 98.686,
+"end": 98.933
+},
+{
+"word": "fits",
+"start": 98.978,
+"end": 99.156
+},
+{
+"word": "a",
+"start": 99.267,
+"end": 99.378
+},
+{
+"word": "pencil.",
+"start": 99.409,
+"end": 99.785
+},
+{
+"word": "Like,",
+"start": 100.239,
+"end": 100.461
+},
+{
+"word": "share",
+"start": 100.51,
+"end": 100.757
+},
+{
+"word": "and",
+"start": 100.813,
+"end": 100.98
+},
+{
+"word": "follow",
+"start": 101.032,
+"end": 101.35
+},
+{
+"word": "for",
+"start": 101.387,
+"end": 101.498
+},
+{
+"word": "more.",
+"start": 101.557,
+"end": 101.869
+},
+{
+"word": "Would",
+"start": 101.906,
+"end": 102.091
+},
+{
+"word": "you",
+"start": 102.109,
+"end": 102.165
+},
+{
+"word": "forgive",
+"start": 102.211,
+"end": 102.535
+},
+{
+"word": "Ryan?",
+"start": 102.609,
+"end": 102.98
+},
+{
+"word": "Comment",
+"start": 103.026,
+"end": 103.35
+},
+{
+"word": "FORGIVE",
+"start": 103.406,
+"end": 103.869
+},
+{
+"word": "or",
+"start": 103.918,
+"end": 104.017
+},
+{
+"word": "FORGET.",
+"start": 104.072,
+"end": 104.683
+}
+]

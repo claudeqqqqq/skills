@@ -1,0 +1,179 @@
+{
+ "files": {
+  "DUN DUN DUNNN": [
+   [
+    "{S}dundun.mp3",
+    "",
+    0
+   ]
+  ],
+  "SPARKLE": [
+   [
+    "{K}sparkle.wav",
+    "",
+    0
+   ]
+  ],
+  "QUACK": [
+   [
+    "{S}quack.mp3",
+    "",
+    0
+   ]
+  ],
+  "CHA-CHING": [
+   [
+    "{K}cashier.wav",
+    "",
+    0
+   ]
+  ],
+  "BUZZ": [
+   [
+    "{S}phone_buzz.mp3",
+    "volume='if(lt(t,0.40),1,if(lt(t,0.52),1-0.5*(t-0.40)/0.12,0.5))':eval=frame",
+    0
+   ]
+  ],
+  "POP3": [
+   [
+    "{K}pop.wav",
+    "",
+    0
+   ],
+   [
+    "{K}pop.wav",
+    "",
+    0.13
+   ],
+   [
+    "{K}pop.wav",
+    "",
+    0.26
+   ]
+  ],
+  "QUACK CHORUS": [
+   [
+    "{S}quack_chorus.mp3",
+    "",
+    0
+   ]
+  ],
+  "CRICKETS": [
+   [
+    "{K}crickets.wav",
+    "",
+    0
+   ]
+  ],
+  "RECORD SCRATCH": [
+   [
+    "{S}scratch.mp3",
+    "afade=t=out:st=0.42:d=0.35",
+    0
+   ]
+  ],
+  "BRUH": [
+   [
+    "{S}bruh.mp3",
+    "",
+    0
+   ]
+  ],
+  "FAST-FORWARD WHOOSH": [
+   [
+    "{K}whoosh.wav",
+    "",
+    0
+   ]
+  ],
+  "THUNDER": [
+   [
+    "{S}thunder.mp3",
+    "",
+    0
+   ]
+  ],
+  "SCREAMS": [
+   [
+    "{S}screams.mp3",
+    "",
+    0
+   ]
+  ],
+  "CLICK QUACK": [
+   [
+    "{K}click.wav",
+    "",
+    0
+   ],
+   [
+    "{S}quack.mp3",
+    "asetrate=44100*0.85,aresample=44100",
+    0.18
+   ]
+  ],
+  "CROWD \"OHHH\"": [
+   [
+    "{S}ohhh.mp3",
+    "",
+    0
+   ]
+  ],
+  "AWW": [
+   [
+    "{K}aww.wav",
+    "",
+    0
+   ]
+  ],
+  "FAHHH": [
+   [
+    "{S}fahhh.mp3",
+    "",
+    0
+   ]
+  ],
+  "QUACK DING": [
+   [
+    "{S}quack.mp3",
+    "",
+    0
+   ],
+   [
+    "{K}ding.wav",
+    "",
+    0.25
+   ]
+  ]
+ },
+ "gain": {
+  "CRICKETS": 0.5,
+  "DUN DUN DUNNN": 0.45,
+  "CROWD \"OHHH\"": 0.4,
+  "BRUH": 0.7,
+  "FAHHH": 0.7,
+  "FAST-FORWARD WHOOSH": 0.4,
+  "QUACK CHORUS": 0.55,
+  "THUNDER": 0.6,
+  "SCREAMS": 0.45,
+  "POP3": 0.7,
+  "SPARKLE": 0.5,
+  "BUZZ": 0.3,
+  "AWW": 0.5,
+  "RECORD SCRATCH": 0.6
+ },
+ "extra": [
+  [
+   "{K}kids_laugh.wav",
+   136,
+   0.45
+  ]
+ ],
+ "bed": {
+  "file": "{A}inthisworld_bed.wav",
+  "under_db": 7,
+  "duck_db": 3.5,
+  "fade_out": 2.0
+ }
+}
